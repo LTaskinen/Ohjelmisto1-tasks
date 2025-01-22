@@ -1,12 +1,13 @@
 number1 = input('Anna luku:')
 suurin = None
 pienin = None
-while number1 !='':
+while number1 != '':
     print(number1)
     if suurin == None or pienin == None:
-        suurin = number1
-        pienin = number1
+        suurin = float(number1)
+        pienin = float(number1)
     else:
+        number1 = float(number1)
         if number1 > suurin:
             suurin = number1
         elif number1 < pienin:
