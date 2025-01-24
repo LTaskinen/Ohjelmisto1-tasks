@@ -5,5 +5,6 @@ while luku != '':
     luvut.append(luku)
     luku = input('Anna seuraava luku tai lopeta painamalla enter:')
 else:
+    luvut.sort(reverse=True)
     print('Luvut suuresta pienempään:')
-    print(f'{luvut.sort(reverse=True)}')
+    print(f'{luvut}')
