@@ -7,4 +7,4 @@ while luku != '':
 else:
     luvut.sort(reverse=True)
     print('Luvut suuresta pienempään:')
-    print(f'{luvut}')
+    print(luvut)
