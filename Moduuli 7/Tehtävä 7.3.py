@@ -8,6 +8,9 @@ def etsintä():
     enimi = input('Mikä on lentokentän ICAO-koodi?:')
     if enimi in asematiedot:
         print(f'ICAO-koodi:{enimi} on lentokenttä: {asematiedot[enimi]}')
+    else:
+        print('Asemaa ei löytynyt tietokannasta.')
+
 asematiedot = {}
 
 print('Tervetuloa!')
